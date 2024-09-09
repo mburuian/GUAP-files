@@ -291,7 +291,11 @@
                 <input type="email" name="email" required id="displayer" placeholder="subscribe for weekly newsletter">
                 <button type="submit" class="sender" id="sub" onclick="changeContent()">Subscribe</button>
             </form>
-
+            <form action="/subscribe" method="POST" id="Newsletter">
+                <input type="email" name="email" required placeholder="Subscribe for weekly newsletter">
+                <button type="submit" class="sender">Subscribe</button>
+            </form>
+            
 
 
 
@@ -307,6 +311,10 @@
             <img src="images/arrow.png" alt="" id="UPTOTOP">
         </div>
     </a>
+    <form action="/subscribe" method="POST" id="Newsletter">
+        <input type="email" name="email" required placeholder="Subscribe for weekly newsletter">
+        <button type="submit" class="sender">Subscribe</button>
+    </form>
     
 
     <div class="COOKIE_BAR" onclick="toggleCookieBar()">
